@@ -1,5 +1,5 @@
 # About-me
-Personal page, curriculum, contact, etc.
+Personal page, resume, contact, etc.
 
 Access --> https://tiago-murilo.vercel.app/
 
