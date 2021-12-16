@@ -3,7 +3,7 @@ import Link from 'next/link'
 function Home({props}){
     
     function openPDF(){
-        window.open('/TiagoMurilo.pdf', '_blank');
+        window.open('/TiagoMurilo_current.pdf', '_blank');
     }
 
     return(
