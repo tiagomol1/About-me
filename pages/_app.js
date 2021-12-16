@@ -1,6 +1,16 @@
-// pages/_app.js
-import '../styles.css'
+import Head from 'next/head'
+import '../styles/globals.css'
 
-export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+    return (
+        <>
+            <Head>
+                <title>Tiago Murilo</title>
+                <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+            </Head>
+            <Component {...pageProps} />
+        </>
+    )
 }
+
+export default MyApp
